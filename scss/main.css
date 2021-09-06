@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);
-* {
-  margin: 0;
-  padding: 0;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 .hero {
   height: 100vh;
   background: linear-gradient(45deg, rgba(255, 175, 189, 0.7), rgba(100, 216, 243, 0.7), rgba(234, 236, 198, 0.7), rgba(245, 146, 176, 0.7), rgba(52, 219, 216, 0.7)) 0 0/1000% no-repeat, url("../img/ventana.jpg") 0 0/cover no-repeat;
@@ -54,12 +50,8 @@
   }
 }
 
-* {
-  margin: 0;
-}
-
 html {
-  background: #000;
+  background: white;
 }
 
 body {
@@ -70,8 +62,9 @@ main {
   margin: 0 auto;
   padding: .875em .5em;
   max-width: 32em;
-  background: #eee;
+  background: #fff;
   font: 1.25em/ 1.375 segoe script, comic sans ms, cursive;
+  font-family: 'Raleway', sans-serif;
 }
 
 main * + * {
@@ -134,7 +127,7 @@ main * + * {
 }
 
 .banner:nth-of-type(12) {
-  --img: url('../img/img12.jpeg');
+  --img: url('../img/img12.jpg');
 }
 
 .banner:nth-of-type(13) {
